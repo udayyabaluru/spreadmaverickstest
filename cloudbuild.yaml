@@ -24,3 +24,5 @@ steps:
       - '1Gi'
 images:
   - 'gcr.io/$PROJECT_ID/cloudrun'
+options:
+  logging: CLOUD_LOGGING_ONLY
